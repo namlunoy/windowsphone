@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>NANA</Machine>
+    <WindowsUser>conghoang</WindowsUser>
+    <TargetPlatformIdentifier>WindowsPhoneApp</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>9b6df0ea-992c-47aa-abb2-9288a5fbe40e</PackageIdentityName>
+    <IntermediateOutputPath>E:\work\Projects x\ToanChuyenDe\ToanChuyenDe\ToanChuyenDe\obj\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="E:\work\Projects x\ToanChuyenDe\ToanChuyenDe\ToanChuyenDe\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="E:\work\Projects x\ToanChuyenDe\ToanChuyenDe\ToanChuyenDe\bin\Debug\ToanChuyenDe.exe">
+      <PackagePath>ToanChuyenDe.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\work\Projects x\ToanChuyenDe\ToanChuyenDe\ToanChuyenDe\Assets\Logo.scale-240.png">
+      <PackagePath>Assets\Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\work\Projects x\ToanChuyenDe\ToanChuyenDe\ToanChuyenDe\Assets\SmallLogo.scale-240.png">
+      <PackagePath>Assets\SmallLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\work\Projects x\ToanChuyenDe\ToanChuyenDe\ToanChuyenDe\Assets\SplashScreen.scale-240.png">
+      <PackagePath>Assets\SplashScreen.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\work\Projects x\ToanChuyenDe\ToanChuyenDe\ToanChuyenDe\Assets\Square71x71Logo.scale-240.png">
+      <PackagePath>Assets\Square71x71Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\work\Projects x\ToanChuyenDe\ToanChuyenDe\ToanChuyenDe\Assets\StoreLogo.scale-240.png">
+      <PackagePath>Assets\StoreLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\work\Projects x\ToanChuyenDe\ToanChuyenDe\ToanChuyenDe\Assets\WideLogo.scale-240.png">
+      <PackagePath>Assets\WideLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\work\Projects x\ToanChuyenDe\ToanChuyenDe\ToanChuyenDe\data.xml">
+      <PackagePath>data.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\work\Projects x\ToanChuyenDe\ToanChuyenDe\ToanChuyenDe\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\work\Projects x\ToanChuyenDe\ToanChuyenDe\ToanChuyenDe\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\work\Projects x\ToanChuyenDe\ToanChuyenDe\ToanChuyenDe\bin\Debug\ToanChuyenDe.xr.xml">
+      <PackagePath>ToanChuyenDe.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\work\Projects x\ToanChuyenDe\ToanChuyenDe\ToanChuyenDe\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

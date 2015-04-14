@@ -1,0 +1,9 @@
+<XamlCompilerSaveState>
+  <ReferenceAssemblyList>
+    <LocalAssembly PathName="e:\work\project competition\fotor effect\fotoreffect\fotoreffect\obj\arm\release\intermediatexaml\fotoreffect.exe" HashGuid="cedeb169-a9b8-4544-649c-063ca5ef281c" />
+    <ReferenceAssembly PathName="c:\program files (x86)\microsoft sdks\windowsphoneapp\v8.1\extensionsdks\microsoft.vclibs\12.0\references\commonconfiguration\neutral\platform.winmd" HashGuid="58b6b6d1-928e-9908-9804-eb460e5e101b" />
+    <ReferenceAssembly PathName="e:\work\project competition\fotor effect\fotoreffect\packages\nokiaimagingsdk.1.2.115\lib\wpa81-hidden\arm\nokia.graphics.imaging.managed.dll" HashGuid="0e3461b0-243d-cee2-9a71-6c52cf549fed" />
+    <ReferenceAssembly PathName="e:\work\project competition\fotor effect\fotoreffect\packages\nokiaimagingsdk.1.2.115\lib\wpa81\arm\nokia.graphics.imaging.winmd" HashGuid="8d2f9d4d-7b28-b123-e80b-5325a9bda862" />
+    <ReferenceAssembly PathName="e:\work\project competition\fotor effect\fotoreffect\packages\nokiaimagingsdk.1.2.115\lib\wpa81\arm\nokia.interopservices.windowsruntime.winmd" HashGuid="a620c63c-5810-01fc-ad49-135fe4647723" />
+  </ReferenceAssemblyList>
+</XamlCompilerSaveState>

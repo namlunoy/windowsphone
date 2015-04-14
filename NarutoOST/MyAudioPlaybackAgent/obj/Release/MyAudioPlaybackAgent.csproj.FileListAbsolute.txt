@@ -1,0 +1,8 @@
+D:\work\Projects x\NarutoOST\MyAudioPlaybackAgent\Bin\Release\MyAudioPlaybackAgent.dll
+D:\work\Projects x\NarutoOST\MyAudioPlaybackAgent\Bin\Release\MyAudioPlaybackAgent.pdb
+D:\work\Projects x\NarutoOST\MyAudioPlaybackAgent\obj\Release\MyAudioPlaybackAgent.dll
+D:\work\Projects x\NarutoOST\MyAudioPlaybackAgent\obj\Release\MyAudioPlaybackAgent.pdb
+E:\work\Projects x\NarutoOST\MyAudioPlaybackAgent\Bin\Release\MyAudioPlaybackAgent.dll
+E:\work\Projects x\NarutoOST\MyAudioPlaybackAgent\Bin\Release\MyAudioPlaybackAgent.pdb
+E:\work\Projects x\NarutoOST\MyAudioPlaybackAgent\obj\Release\MyAudioPlaybackAgent.dll
+E:\work\Projects x\NarutoOST\MyAudioPlaybackAgent\obj\Release\MyAudioPlaybackAgent.pdb

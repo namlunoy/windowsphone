@@ -1,0 +1,4 @@
+D:\work\Projects x\NarutoOST\MyAudioPlaybackAgent\Bin\Debug\MyAudioPlaybackAgent.dll
+D:\work\Projects x\NarutoOST\MyAudioPlaybackAgent\Bin\Debug\MyAudioPlaybackAgent.pdb
+D:\work\Projects x\NarutoOST\MyAudioPlaybackAgent\obj\Debug\MyAudioPlaybackAgent.dll
+D:\work\Projects x\NarutoOST\MyAudioPlaybackAgent\obj\Debug\MyAudioPlaybackAgent.pdb

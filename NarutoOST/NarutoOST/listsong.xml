@@ -1,0 +1,31 @@
+﻿<root>
+  <ListSong>
+    <Song>
+      <i>1</i>
+      <name>Wind</name>
+      <author>Akeboshi</author>
+      <link>http://stream3.mp3.zdn.vn/ES3stAYFQh/3802feda4b05912702e5ccfcda9e114e/53fb1885/2011/12/10/3/b/3b64f7acfbd0ed033c0f358238928693.mp3</link>
+      <type>1</type>
+      <time>3:41</time>
+    </Song>
+
+    <Song>
+      <i>1</i>
+      <name>Wind</name>
+      <author>Akeboshi</author>
+      <link>http://stream3.mp3.zdn.vn/ES3stAYFQh/3802feda4b05912702e5ccfcda9e114e/53fb1885/2011/12/10/3/b/3b64f7acfbd0ed033c0f358238928693.mp3</link>
+      <type>2</type>
+      <time>3:41</time>
+    </Song>
+
+    <Song>
+      <i>1</i>
+      <name>Wind</name>
+      <author>Akeboshi</author>
+      <link>http://stream3.mp3.zdn.vn/ES3stAYFQh/3802feda4b05912702e5ccfcda9e114e/53fb1885/2011/12/10/3/b/3b64f7acfbd0ed033c0f358238928693.mp3</link>
+      <type>3</type>
+      <time>3:41</time>
+    </Song>
+
+  </ListSong>
+</root>

@@ -1,0 +1,74 @@
+﻿<phone:PhoneApplicationPage
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:GoogleAds="clr-namespace:GoogleAds;assembly=GoogleAds"
+    x:Class="YES_or_NO.ListPage"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="True">
+
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <GoogleAds:AdView Name="ads"  AdUnitID="ca-app-pub-6921176146936171/7170395444" Format="SmartBanner" />
+
+        <Grid Grid.Row="1">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+                <TextBlock Margin="0,10,0,15" Text="my choices" HorizontalAlignment="Center" VerticalAlignment="Top" FontFamily="Segoe WP SemiLight" FontSize="55" />
+                <ListBox Grid.Row="1" HorizontalAlignment="Stretch" VerticalAlignment="Top" Name="list">
+                </ListBox>
+            </Grid>
+        </Grid>
+        <Grid Name="popup" Visibility="Collapsed" Grid.RowSpan="10" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" >
+            <Border Background="Black" Opacity="0.9" />
+            <ScrollViewer>
+                <StackPanel HorizontalAlignment="Left" VerticalAlignment="Top" Margin="26,90,0,0" Width="444">
+                    <TextBlock Margin="10" Text="Problem:" FontFamily="Segoe WP Black" FontSize="24" />
+                    <TextBlock Name="content" TextWrapping="Wrap" Text="1231231" FontFamily="Segoe WP Light" FontSize="36" Margin="10,0" />
+                    <StackPanel Margin="10" Orientation="Horizontal">
+                        <TextBlock Text="Your choice: " VerticalAlignment="Center" FontFamily="Segoe WP Black" FontSize="24" />
+                        <Grid Name="txtYES" Visibility="Visible" HorizontalAlignment="Right" Margin="10,5" >
+                            <Rectangle Fill="Green" RadiusX="5" RadiusY="5"  />
+                            <TextBlock Padding="10,5" Text="YES" HorizontalAlignment="Center" VerticalAlignment="Center" FontWeight="Bold" />
+                        </Grid>
+                        <Grid Name="txtNO" Visibility="Collapsed" HorizontalAlignment="Right" Margin="10,5" >
+                            <Rectangle Fill="Red" RadiusX="5" RadiusY="5"  />
+                            <TextBlock Padding="10,5" Text="NO" HorizontalAlignment="Center" VerticalAlignment="Center" FontWeight="Bold" />
+                        </Grid>
+                        <Grid Name="txtThink" Visibility="Collapsed" HorizontalAlignment="Right" Margin="10,5" >
+                            <Rectangle Fill="Gray" RadiusX="5" RadiusY="5"  />
+                            <TextBlock Padding="10,5" Text="Thinking..." HorizontalAlignment="Center" VerticalAlignment="Center" FontWeight="Bold" />
+                        </Grid>
+                    </StackPanel>
+                    <StackPanel Margin="7" Orientation="Horizontal">
+                        <TextBlock Text="Time: " FontFamily="Segoe WP Black" FontSize="24" />
+                        <TextBlock VerticalAlignment="Center" Name="txtTime"/>
+                    </StackPanel>
+                    <TextBlock Margin="10" Text="Result:" FontFamily="Segoe WP Black" FontSize="24" />
+                    <TextBox IsReadOnly="True" Name="result" AcceptsReturn="True" TextWrapping="Wrap" Text="1231231" FontFamily="Segoe WP Light" FontSize="36" Margin="10,0"  />
+                    <Button Name="editButton" Content="edit result" Click="clickAddResult" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+
+                    <StackPanel Orientation="Horizontal">
+                        <Button Content="delete" Click="clickDelete" HorizontalAlignment="Left"  VerticalAlignment="Top"/>
+                        <Button Content="share" Click="clickShare" HorizontalAlignment="Left"  VerticalAlignment="Top"/>
+                        <Button Content="cancel" Click="clickCancel" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+                    </StackPanel>
+                </StackPanel>
+            </ScrollViewer>
+        </Grid>
+    </Grid>
+
+</phone:PhoneApplicationPage>

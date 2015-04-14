@@ -1,0 +1,4 @@
+E:\work\Projects x\Naruto Shippuuden OST\MyAudioPlaybackAgent\Bin\x86\Debug\MyAudioPlaybackAgent.dll
+E:\work\Projects x\Naruto Shippuuden OST\MyAudioPlaybackAgent\Bin\x86\Debug\MyAudioPlaybackAgent.pdb
+E:\work\Projects x\Naruto Shippuuden OST\MyAudioPlaybackAgent\obj\x86\Debug\MyAudioPlaybackAgent.dll
+E:\work\Projects x\Naruto Shippuuden OST\MyAudioPlaybackAgent\obj\x86\Debug\MyAudioPlaybackAgent.pdb

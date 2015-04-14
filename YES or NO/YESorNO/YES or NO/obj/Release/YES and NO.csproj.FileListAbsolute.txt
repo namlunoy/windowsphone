@@ -1,0 +1,30 @@
+D:\work\Projects x\YES or NO\YESorNO\YES or NO\Bin\Release\Assets\AppBar\basecircle.png
+D:\work\Projects x\YES or NO\YESorNO\YES or NO\Bin\Release\Assets\AppBar\check.png
+D:\work\Projects x\YES or NO\YESorNO\YES or NO\Bin\Release\Assets\AppBar\favs.png
+D:\work\Projects x\YES or NO\YESorNO\YES or NO\Bin\Release\Assets\AppBar\refresh.png
+D:\work\Projects x\YES or NO\YESorNO\YES or NO\Bin\Release\Assets\AppBar\share.png
+D:\work\Projects x\YES or NO\YESorNO\YES or NO\Bin\Release\Assets\ApplicationIcon.png
+D:\work\Projects x\YES or NO\YESorNO\YES or NO\Bin\Release\Assets\Tiles\FlipCycleTileLarge.png
+D:\work\Projects x\YES or NO\YESorNO\YES or NO\Bin\Release\Assets\Tiles\FlipCycleTileMedium.png
+D:\work\Projects x\YES or NO\YESorNO\YES or NO\Bin\Release\Assets\Tiles\FlipCycleTileSmall.png
+D:\work\Projects x\YES or NO\YESorNO\YES or NO\Bin\Release\Assets\Tiles\IconicTileMediumLarge.png
+D:\work\Projects x\YES or NO\YESorNO\YES or NO\Bin\Release\Assets\Tiles\IconicTileSmall.png
+D:\work\Projects x\YES or NO\YESorNO\YES or NO\Bin\Release\Assets\Fonts\impact.ttf
+D:\work\Projects x\YES or NO\YESorNO\YES or NO\Bin\Release\YES or NO.dll
+D:\work\Projects x\YES or NO\YESorNO\YES or NO\Bin\Release\YES or NO.pdb
+D:\work\Projects x\YES or NO\YESorNO\YES or NO\Bin\Release\AppManifest.xaml
+D:\work\Projects x\YES or NO\YESorNO\YES or NO\Bin\Release\Properties\WMAppManifest.xml
+D:\work\Projects x\YES or NO\YESorNO\YES or NO\Bin\Release\YES_or_NO_Release_AnyCPU.xap
+D:\work\Projects x\YES or NO\YESorNO\YES or NO\Bin\Release\GoogleAds.dll
+D:\work\Projects x\YES or NO\YESorNO\YES or NO\Bin\Release\GoogleAds.xml
+D:\work\Projects x\YES or NO\YESorNO\YES or NO\obj\Release\App.g.cs
+D:\work\Projects x\YES or NO\YESorNO\YES or NO\obj\Release\about.g.cs
+D:\work\Projects x\YES or NO\YESorNO\YES or NO\obj\Release\ListPage.g.cs
+D:\work\Projects x\YES or NO\YESorNO\YES or NO\obj\Release\MainPage.g.cs
+D:\work\Projects x\YES or NO\YESorNO\YES or NO\obj\Release\UserControls\Item.g.cs
+D:\work\Projects x\YES or NO\YESorNO\YES or NO\obj\Release\YES or NO.g.resources
+D:\work\Projects x\YES or NO\YESorNO\YES or NO\obj\Release\YES_or_NO.Resources.AppResources.resources
+D:\work\Projects x\YES or NO\YESorNO\YES or NO\obj\Release\YES and NO.csproj.GenerateResource.Cache
+D:\work\Projects x\YES or NO\YESorNO\YES or NO\obj\Release\YES or NO.dll
+D:\work\Projects x\YES or NO\YESorNO\YES or NO\obj\Release\YES or NO.pdb
+D:\work\Projects x\YES or NO\YESorNO\YES or NO\obj\Release\XapCacheFile.xml

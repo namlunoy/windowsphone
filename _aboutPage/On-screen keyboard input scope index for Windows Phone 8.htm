@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+
+<html dir="ltr" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head><link rel="canonical" href="http://msdn.microsoft.com/en-us/library/windows/apps/hh393998(v=vs.105).aspx" />
+        <title>On-screen keyboard input scope index for Windows Phone 8</title>
+
+
+
+
+<meta name="DCS.dcsuri" content="/en-us/library/windows/apps/hh393998(d=default,l=en-us,v=vs.105).aspx" />
+
+<meta name="NormalizedUrl" content="http://msdn.microsoft.com/en-us/library/windows/apps/hh393998(d=default,l=en-us,v=vs.105).aspx" />
+
+<meta name="ms.normalizedurl" content="http://msdn.microsoft.com/en-us/library/windows/apps/hh393998(d=default,l=en-us,v=vs.105).aspx" />
+
+<meta name="DCSext.ProductFamily" content="LIB_DG" />
+
+<meta name="DCSext.Product" content="WinPhone UA" />
+
+<meta name="DCSext.Title" content="On-screen keyboard input scope index for Windows Phone 8" />
+
+<meta name="VotingContextUrl" content="http://msdn.microsoft.com/en-us/library/windows/apps/hh393998(d=default,l=en-us,v=vs.105).aspx" />
+
+<meta name="MN" content="BF1CA938-9:39:36 AM" />
+
+<meta name="Search.ShortId" content="hh393998" />
+
+<meta name="ms.shortidmsdn" content="hh393998" />
+
+<meta name="Ms.Locale" content="en-us" />
+
+<meta name="ms.prodver" content="VS.105" />
+
+<meta name="ms.contentlang" content="EN" />
+
+<meta name="ms.lang" content="EN" />
+
+<meta name="ms.loc" content="US" />
+
+<meta name="ms.sitever" content="2014.08.22.0003" />
+
+<meta name="ms.assetid" content="4a97e448-ef3a-4042-b482-295671d9a4b2" />
+
+<meta name="ms.auth" content="0" />
+
+
+
+
+
+
+
+
+        
+    <link rel="shortcut icon" href="/Areas/Epx/Themes/Windows/Content/Winlogo_favicon.ico" />
+
+    <link rel="stylesheet" type="text/css" href="http://i3.msdn.microsoft.com/Combined.css?resources=0:Topic,0:CodeSnippet,0:ProgrammingSelector,0:ExpandableCollapsibleArea,1:CommunityContent,0:TopicNotInScope,0:FeedViewerBasic,0:ImageSprite,2:header.2,2:ImageSprite,3:LinkList,1:Toc,1:NavigationResize,1:LibraryMemberFilter,4:Footer,3:SelectLocaleFromPopUp,2:OverridesWindowsFooter,5:WindowsApps;/Areas/Epx/Content/Css:0,/Areas/Library/Content:1,/Areas/Epx/Themes/WindowsApps/Content:2,/Areas/Epx/Themes/Base/Content:3,/Areas/Epx/Themes/Windows/Content:4,/Areas/Library/Themes/WindowsApps/Content:5&amp;amp;hashKey=4EC36FF956B491FEBBBAA9C4DB04CEF9" /></head>
+    <body class="library Chrome">
+        <div id="page">
+            
+            
+  
+            
+    
+    
+
+    <div id="ux-header" class="ltr">
+        <div id="headerContent">
+            <div id="logo">
+                <a href="http://dev.windows.com" title="Windows"><img alt="Windows" src="http://i.msdn.microsoft.com/Areas/Epx/Themes/Windows/Content/Windows_logo.png"></img></a>    
+        <div id="selectedTab">
+            <a class="dropDownToggle" href="javascript:void(0);">Dev Center - Windows</a>    
+        </div>
+    <div id="toclevel1_menu" style="display: none;">
+        <ul>
+                <li><a href="http://dev.windows.com/" title="Windows">Windows</a></li>
+                <li><a href="http://msdn.microsoft.com/windows/desktop/" title="Desktop">Desktop</a></li>
+                <li><a href="http://msdn.microsoft.com/windows/hardware/" title="Hardware">Hardware</a></li>
+                <li><a href="http://msdn.microsoft.com/ie/" title="Internet Explorer">Internet Explorer</a></li>
+        </ul>
+        <div style="clear: both"></div>
+    </div> 
+     
+            </div>
+              
+    <div class="toclevel2"> 
+            <a class="normal" href="http://dev.windows.com/en-us/dashboard" title="Dashboard">Dashboard</a>
+            <a class="normal" href="http://dev.windows.com/en-us/getstarted" title="Get started ">Get started </a>
+            <a class="normal" href="http://dev.windows.com/en-us/design" title="Design">Design</a>
+            <a class="active" href="http://dev.windows.com/en-us/develop" title="Develop">Develop</a>
+            <a class="normal" href="http://dev.windows.com/en-us/publish" title="Publish">Publish</a>
+            <a class="normal" href="http://dev.windows.com/en-us/community" title="Community">Community</a>
+    </div>
+    <div class="clear"></div>
+
+           
+            <div id="ctasearch">                       
+                <div class="toolbar">
+                    <div data-fragmentName="Toolbar" id="Fragment_Toolbar" xmlns="http://www.w3.org/1999/xhtml">
+  
+  <div class="linkList">
+    <ul class="links horizontal">
+      <li>
+        <a href="http://go.microsoft.com/fwlink/p/?LinkId=311912" title="Download SDK" id="Toolbar_3255_2" class="sdk" xmlns="http://www.w3.org/1999/xhtml">Download SDK</a>
+      </li>
+      <li>
+        <a href="http://go.microsoft.com/fwlink/p/?LinkId=311914" title="Sample Code" id="Toolbar_3255_4" class="exmpls" xmlns="http://www.w3.org/1999/xhtml">Sample Code</a>
+      </li>
+      <li>
+        <a href="http://go.microsoft.com/fwlink/p/?LinkId=311915" title="Submit App" id="Toolbar_3255_6" class="sbmt" xmlns="http://www.w3.org/1999/xhtml">Submit App</a>
+      </li>
+      <li>
+        <a href="http://go.microsoft.com/fwlink/p/?LinkId=311916" title="Get App" id="Toolbar_3255_5" class="dcapp" xmlns="http://www.w3.org/1999/xhtml">Get App</a>
+      </li>
+      <li>
+        <a href="http://go.microsoft.com/fwlink/p/?LinkId=330426" title="Preview OS" id="Toolbar_3255_7" class="prvw" xmlns="http://www.w3.org/1999/xhtml">Preview OS</a>
+      </li>
+    </ul>
+  </div>
+</div>                       
+                    <div data-fragmentName="SearchBox" id="Fragment_SearchBox" xmlns="http://www.w3.org/1999/xhtml">
+  <div class="SearchBox">
+    <form id="HeaderSearchForm" name="HeaderSearchForm" method="get" onsubmit="return Epx.Controls.SearchBox.searchBoxOnSubmit(this);">
+      <input id="HeaderSearchTextBox" name="query" type="text" maxlength="200" onfocus="Epx.Controls.SearchBox.watermarkFocus(event, this.title)" onblur="Epx.Controls.SearchBox.watermarkBlur(event, this.title)" />
+      <button id="HeaderSearchButton" value="" type="submit" class="header-search-button"></button>
+      <a href="javascript:void(0)" id="ShowSearchBoxButton" class="header-search-button" style="display:none"></a>
+    </form>
+    
+    
+  </div>
+</div>      
+                </div>
+                <div class="descr"></div> 
+            </div>
+            
+            <div id="signIn">
+
+<a class="scarabLink" href="https://login.live.com/login.srf?wa=wsignin1.0&amp;rpsnv=12&amp;ct=1410885576&amp;rver=6.0.5276.0&amp;wp=MCLBI&amp;wlcxt=MSDN%24MSDN%24MSDN&amp;wreply=http%3a%2f%2fmsdn.microsoft.com%2fen-us%2flibrary%2fwindows%2fapps%2fhh393998%2528v%3dvs.105%2529.aspx&amp;lc=1033&amp;id=254354&amp;mkt=en-US" title="Sign in">Sign in</a></div>
+
+    
+
+            <input type="hidden" id="parametersForSearchAnimation" value="223,45,0.8" />   
+        </div>     
+        <hr />
+    <div class="toclevel3"> 
+            <a class="normal" href="http://msdn.microsoft.com/library/windows/apps/dn726537.aspx" title="How to">How to</a>
+            <a class="normal" href="http://code.msdn.microsoft.com/windowsapps" title="Samples">Samples</a>
+            <a class="normal" href="http://msdn.microsoft.com/library/windows/apps/bg124285.aspx" title="Reference">Reference</a>
+            <a class="normal" href="http://dev.windows.com/en-us/develop/downloads" title="Downloads">Downloads</a>
+            <a class="active" href="http://msdn.microsoft.com/library/windows/apps/ff402535.aspx" title="Windows Phone Silverlight">Windows Phone Silverlight</a>
+    </div>
+    <div class="clear"></div>
+    </div>
+
+
+
+        
+            <div id="body">
+                
+
+
+
+
+
+
+
+<div id="leftNav" class="leftNav">
+
+
+
+
+<div id="tocnav">
+
+            <div class="toclevel0" data-toclevel="0">
+<a data-tochassubtree="true" href="/en-us/library/windows/apps/ff402551(v=vs.105).aspx" id="jj207090_VS.105_en-us" mtpsaliasid="" mtpsassetid="a2821cf4-a833-4223-83ef-eb35e7fc7714_VS.105_en-us" mtpsshortid="ff402551_VS.105_en-us" title="Developing apps">Developing apps</a>            </div>
+            <div class="toclevel1" data-toclevel="1">
+<a data-tochassubtree="true" href="/en-us/library/windows/apps/ff607287(v=vs.105).aspx" id="jj207133_VS.105_en-us" mtpsaliasid="" mtpsassetid="d3cb0cf2-f8ba-4ff0-922e-77b76341fc08_VS.105_en-us" mtpsshortid="ff607287_VS.105_en-us" title="Input for Windows Phone 8">Input for Windows Phone 8</a>            </div>
+            <div class="toclevel2 current" data-toclevel="2">
+<a href="/en-us/library/windows/apps/hh393998(v=vs.105).aspx" mtpsaliasid="" mtpsassetid="" mtpsshortid="" title="On-screen keyboard input scope index for Windows Phone 8">On-screen keyboard input scope index for Windows Phone 8</a>            </div>
+            <div class="toclevel2" data-toclevel="2">
+<a href="/en-us/library/windows/apps/gg521152(v=vs.105).aspx" mtpsaliasid="" mtpsassetid="" mtpsshortid="" title="How to change the on-screen keyboard input scope for Windows Phone 8">How to change the on-screen keyboard input scope for Windows Phone 8</a>            </div>
+            <div class="toclevel2" data-toclevel="2">
+<a href="/en-us/library/windows/apps/jj207076(v=vs.105).aspx" mtpsaliasid="" mtpsassetid="" mtpsshortid="" title="Quickstart: Touch input for Windows Phone 8">Quickstart: Touch input for Windows Phone 8</a>            </div>
+            <div class="toclevel2" data-toclevel="2">
+<a href="/en-us/library/windows/apps/ff967546(v=vs.105).aspx" mtpsaliasid="" mtpsassetid="" mtpsshortid="" title="Gesture support for Windows Phone 8">Gesture support for Windows Phone 8</a>            </div>
+            <div class="toclevel2" data-toclevel="2">
+<a href="/en-us/library/windows/apps/ff426933(v=vs.105).aspx" mtpsaliasid="" mtpsassetid="" mtpsshortid="" title="How to handle manipulation events for Windows Phone 8">How to handle manipulation events for Windows Phone 8</a>            </div>
+            <div class="toclevel2" data-toclevel="2">
+<a href="/en-us/library/windows/apps/jj662946(v=vs.105).aspx" mtpsaliasid="" mtpsassetid="" mtpsshortid="" title="Ink support for Windows Phone 8">Ink support for Windows Phone 8</a>            </div>
+</div>    <div id="toc-resizable-ew" class="toc-resizable-ew"></div>
+    <input type="hidden" id="leftNavWidths" value="0;218;380;480" />
+    
+
+<a id="NavigationResize" href="javascript:void(0)">
+    <img class="cl_nav_resize_open" src="http://i3.msdn.microsoft.com/Areas/Epx/Content/Images/ImageSprite.png" title="Expand" alt="Expand" />
+    <img class="cl_nav_resize_close" src="http://i3.msdn.microsoft.com/Areas/Epx/Content/Images/ImageSprite.png" title="Minimize" alt="Minimize" />
+</a>
+
+
+
+</div>
+<div id="content">
+
+
+
+
+
+
+
+        
+
+<div class="topic" xmlns="http://www.w3.org/1999/xhtml">
+  <h1 class="title">On-screen keyboard input scope index for Windows Phone 8</h1>
+  
+  <div id="mainSection">
+      <div id="mainBody">
+        
+        
+        <p></p> <p>August 19, 2014</p><div class="introduction"><p>
+    </p><p><span class="label">Applies to:</span> Windows Phone 8 and Windows Phone Silverlight 8.1 | Windows Phone OS 7.1</p>
+  <p>You can make it much faster and easier for users to enter data in your Windows Phone applications by changing the on-screen keyboard. This topic shows you the different on-screen keyboard options, with their corresponding input scopes. For more information, see <span><a href="http://msdn.microsoft.com/en-us/library/windows/apps/gg521152(v=vs.105).aspx">How to change the on-screen keyboard input scope for Windows Phone 8</a></span>.</p><p>To download a sample application that contains all the different keyboard options, see <a href="http://go.microsoft.com/fwlink/p/?LinkID=229113">Keyboard Index Sample</a>. </p><div class="alert"><table><tr><th><img id="alert_note" alt="Note" src="http://i.msdn.microsoft.com/areas/global/content/clear.gif" title="Note" xmlns="" class="cl_IC101471" /><strong>Note:</strong></th></tr><tr><td><p>The on-screen keyboard is also referred to as the software-based input panel, or SIP.</p></td></tr></table></div></div><div><h2 class="LW_CollapsibleArea_TitleDiv"><div><a href="javascript:void(0)" class="LW_CollapsibleArea_TitleAhref" title="Collapse" role="button"><span class="cl_CollapsibleArea_expanding LW_CollapsibleArea_Img"></span><span class="LW_CollapsibleArea_Title">On-Screen Keyboard Options</span></a><div class="LW_CollapsibleArea_HrDiv"><hr class="LW_CollapsibleArea_Hr" /></div></div></h2><div class="sectionblock"><a id="sectionToggle0"></a><p>In general, most of the Windows Phone keyboards contain the following features. Exceptions are noted in the table that follows the list of features.</p><ul><li><p>Press and hold the period key to display additional options (<span class="label">- ! : ? .</span>).</p></li><li><p>Press the <span class="label">&amp;123</span> key to change to the number and symbol keyboard.</p></li><li><p>Press the <span class="label">abcd</span> key to change to the default alphabetic keyboard.</p></li><li><p>Use the left and right arrows to see additional pages of keys.</p></li></ul><p>The following table contains the on-screen keyboard options for Windows Phone OS 7.1.</p><div class="caption"></div><div class="tableSection"><table><tr><th><p>Keyboard</p></th><th><p>Notes</p></th><th><p>Input scopes</p></th></tr><tr><td><img id="AP_Con_Keyboard4" alt="Keyboard 4" src="http://i.msdn.microsoft.com/dynimg/IC530993.png" title="Keyboard 4" xmlns="" /></td><td><p>Includes auto-correction, suggestions, and emoticons.</p></td><td><p><span class="code">Text</span></p></td></tr><tr><td><img id="AP_Con_Keyboard1" alt="Keyboard 1" src="http://i.msdn.microsoft.com/dynimg/IC530994.png" title="Keyboard 1" xmlns="" /></td><td><p>The default keyboard.</p></td><td><p><span class="code">AddressCity</span>, <span class="code">AddressCountryName</span>, <span class="code">AddressCountryShortName</span>, <span class="code">AddressStateOrProvince</span>, <span class="code">AddressStreet</span>*, <span class="code">AlphanumericFullWidth</span>, <span class="code">AlphanumericHalfWidth</span>, <span class="code">Bopomofo</span>, <span class="code">DateDayName</span>, <span class="code">DateMonthName</span>, <span class="code">Default</span>, <span class="code">FileName</span>, <span class="code">FullFilePath</span>, <span class="code">Hanja</span>, <span class="code">Hiragana</span>, <span class="code">KatakanaFullWidth</span>, <span class="code">KatakanaHalfWidth</span>, <span class="code">LogOnName</span>, <span class="code">OneChar</span>, <span class="code">Password</span>, <span class="code">PersonalFullName</span>, <span class="code">PersonalGivenName</span>, <span class="code">PersonalMiddleName</span>, <span class="code">PersonalNamePrefix</span>, <span class="code">PersonalNameSuffix</span>, <span class="code">Yomi</span></p><p>*<span class="code">AddressStreet</span> produces this keyboard when the keyboard language on the phone or emulator is set to any language other than English, French, Filipino, Malay, or Indonesian.</p></td></tr><tr><td><img id="AP_Con_Keyboard6" alt="Keyboard 6" src="http://i.msdn.microsoft.com/dynimg/IC530995.png" title="Keyboard 6" xmlns="" /></td><td><p>Includes the <span class="label">@</span> and <span class="label">.com</span> keys. Press and hold the <span class="label">.com</span> key to display additional options (<span class="label">.org .com .edu .net</span>).</p></td><td><p><span class="code">EmailNameOrAddress</span>, <span class="code">EmailSmtpAddress</span>, <span class="code">EmailUserName</span></p></td></tr><tr><td><img id="AP_Con_Keyboard10" alt="Keyboard 10" src="http://i.msdn.microsoft.com/dynimg/IC530996.png" title="Keyboard 10" xmlns="" /></td><td><p>Includes the <span class="label">.com</span> key. Press and hold the <span class="label">.com</span> key to display additional options (<span class="label">.com .org .edu .net</span>). Press and hold the period key to display additional options (<span class="label">- + &amp; " : . /</span>).</p></td><td><p><span class="code">Url</span></p></td></tr><tr><td><img id="AP_Con_Keyboard8" alt="Keyboard 8" src="http://i.msdn.microsoft.com/dynimg/IC530997.png" title="Keyboard 8" xmlns="" /></td><td><p>Press the <span class="label">123</span> key to change to the telephone number keyboard. Press and hold the period key to display additional options (<span class="label">- _ , .</span>).</p></td><td><p><span class="code">NameOrPhoneNumber</span></p></td></tr><tr><td><img id="AP_Con_Keyboard2" alt="Keyboard 2" src="http://i.msdn.microsoft.com/dynimg/IC530998.png" title="Keyboard 2" xmlns="" /></td><td><p>Contains numbers and symbols.</p></td><td><p><span class="code">AddressStreet</span>*, <span class="code">CurrencyAmountAndSymbol</span>, <span class="code">CurrencyChinese</span>, <span class="code">PostalAddress</span>, <span class="code">PostalCode</span>, <span class="code">Time</span></p><p>*<span class="code">AddressStreet</span> produces this keyboard when the keyboard language on the phone or emulator is set to English, French, Filipino, Malay, or Indonesian.</p></td></tr><tr><td><img id="AP_Con_Keyboard9" alt="Keyboard 9" src="http://i.msdn.microsoft.com/dynimg/IC530999.png" title="Keyboard 9" xmlns="" /></td><td><p>Mimics the telephone keypad. Press and hold the period key to display additional options (<span class="label">, ( ) X .</span>). Press and hold the <span class="label">0</span> key to enter <span class="label">+</span>.</p></td><td><p><span class="code">TelephoneAreaCode</span>, <span class="code">TelephoneCountryCode</span>, <span class="code">TelephoneLocalNumber</span>, <span class="code">TelephoneNumber</span></p></td></tr><tr><td><img id="AP_Con_Keyboard5" alt="Keyboard 5" src="http://i.msdn.microsoft.com/dynimg/IC531000.png" title="Keyboard 5" xmlns="" /></td><td><p>Contains numbers and a decimal point. Press and hold the period key to display additional options (<span class="label">. , -</span>).</p></td><td><p><span class="code">CurrencyAmount</span>, <span class="code">DateDay</span>, <span class="code">DateMonth</span>, <span class="code">DateYear</span>, <span class="code">Digits</span>, <span class="code">Number</span>, <span class="code">NumberFullWidth</span>, <span class="code">NumericPassword</span>, <span class="code">TimeHour</span>, <span class="code">TimeMinorSec</span></p></td></tr><tr><td><img id="AP_Con_Keyboard7" alt="Keyboard 7" src="http://i.msdn.microsoft.com/dynimg/IC531001.png" title="Keyboard 7" xmlns="" /></td><td><p>Includes suggestions.</p></td><td><p><span class="code">Maps</span>, <span class="code">Search</span></p></td></tr><tr><td><img id="AP_Con_Keyboard3" alt="Keyboard 3" src="http://i.msdn.microsoft.com/dynimg/IC531002.png" title="Keyboard 3" xmlns="" /></td><td><p>Includes suggestions. Press and hold the equal key for additional options (<span class="label"> ( = ) : &lt; &gt; </span>). Press the <span class="label">&amp;123</span> key to change to the number and symbol keyboard, optimized for entering numeric formulas.</p></td><td><p><span class="code">Formula</span></p></td></tr><tr><td><img id="AP_Con_Keyboard4" alt="Keyboard 4" src="http://i.msdn.microsoft.com/dynimg/IC530993.png" title="Keyboard 4" xmlns="" /></td><td><p>Includes suggestions and emoticons, but not auto-correction.</p></td><td><p><span class="code">Chat</span></p></td></tr></table></div><div class="alert"><table><tr><th><img id="alert_caution" alt="Important note" src="http://i.msdn.microsoft.com/areas/global/content/clear.gif" title="Important note" xmlns="" class="cl_IC46226" /><strong>Important Note:</strong></th></tr><tr><td><p>The following Input scopes are not supported in Windows Phone applications: <span class="code">ApplicationEnd</span>, <span class="code">EnumString</span>, <span class="code">PhraseList</span>, <span class="code">Private</span>, <span class="code">RegularExpression</span>, <span class="code">Srgs</span>, <span class="code">Xml</span>.</p></td></tr></table></div></div></div><div><h2 class="LW_CollapsibleArea_TitleDiv"><div><a href="javascript:void(0)" class="LW_CollapsibleArea_TitleAhref" title="Collapse" role="button"><span class="cl_CollapsibleArea_expanding LW_CollapsibleArea_Img"></span><span class="LW_CollapsibleArea_Title">See Also</span></a><div class="LW_CollapsibleArea_HrDiv"><hr class="LW_CollapsibleArea_Hr" /></div></div></h2><div class="sectionblock"><a id="seeAlsoToggle"></a><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><span><a href="http://msdn.microsoft.com/en-us/library/windows/apps/system.windows.input.inputscopenamevalue(v=vs.105).aspx">InputScopeNameValue</a></span></div><h4 class="subHeading">Other Resources</h4><div class="seeAlsoStyle"><span><a href="http://msdn.microsoft.com/en-us/library/windows/apps/gg521152(v=vs.105).aspx">How to change the on-screen keyboard input scope for Windows Phone 8</a></span></div></div></div></div>
+      
+      <p></p>
+    </div>
+</div>
+
+    
+
+
+
+
+<div class="libraryMemberFilter">
+    <div class="filterContainer">
+        <span>Show:</span>
+        <label>
+            <input type="checkbox" class="libraryFilterInherited" checked="checked" value="Inherit" />Inherited
+        </label>
+        <label>
+            <input type="checkbox" class="libraryFilterProtected" checked="checked" value="Protected" />Protected
+        </label>
+    </div>
+</div>
+    
+<input type="hidden" id="libraryMemberFilterEmptyWarning" value="There are no members available with your current filter settings." />
+
+
+
+</div>
+
+
+
+<input id="tocPaddingPerLevel" type="hidden" value="17" />
+
+
+            </div>
+            <div class="clear"></div>
+        
+            
+    <div style="clear: both;"></div>
+    
+<input name="__RequestVerificationToken" type="hidden" value="_SEOKH0urygtfXUk-oAd8uwM8fC9DAH1B6oc19d3T8h3SmP8M0J30-YcYylR2rMYWU4WsMGbDXVnSle01pYWVFmlrtA1" />
+<input id="ratingSubmitUrl" type="hidden" value="http://msdn.microsoft.com/en-us/library/feedback/add/hh393998(v=vs.105).aspx" />
+<input id="isTopicRated" type="hidden" value="false" />
+
+
+
+
+    
+
+
+    <div id="ux-footer" class="ltr">
+        
+            <div id="footerSock">
+                <div id="footerSockInner">
+                    <a name="feedback"></a>
+                    <div data-fragmentName="Survey" id="Fragment_Survey" xmlns="http://www.w3.org/1999/xhtml"></div>
+
+<div class="rating">
+    <div id="ratingSection1">
+        <div class="title">
+            Was this page helpful?
+        </div>
+        <div class="description">
+            Your feedback about this content is important.<br />Let us know what you think.
+        </div>
+        <div class="buttons">
+            <button class="button" id="ratingYes">Yes</button>
+            <button class="button" id="ratingNo">No</button>
+        </div>
+        <input id="ratingValue" type="hidden" value="" />
+    </div>
+    <div id="ratingSection2">
+        <div class="title">
+            Additional feedback?
+        </div>
+        <textarea id="ratingText" rows="6" cols="" maxlength="1500"></textarea>
+        <div class="counter right">
+            <span id="feedbackTextCounter">1500</span> characters remaining
+        </div>
+        <div class="buttons left">
+            <button class="button" id="ratingSubmit">Submit</button>
+            <button class="button" id="ratingSkipThis">Skip this</button>
+        </div>
+    </div>
+    <div id="ratingSection3">
+        <div class="title">
+            Thank you!
+        </div>
+        <div class="description">
+            We appreciate your feedback.
+        </div>
+    </div>
+    
+    
+    <div id="contentFeedbackQAContainer" style="display: none;"></div>
+</div>
+    
+
+                    <div data-fragmentName="SockLinks" id="Fragment_SockLinks" xmlns="http://www.w3.org/1999/xhtml">
+  
+  <div class="linkList">
+    <ul class="links">
+      <li>
+        <a href="http://go.microsoft.com/fwlink/p/?LinkId=317808" id="SockLinks_728_43" xmlns="http://www.w3.org/1999/xhtml">Follow us on Twitter</a>
+      </li>
+      <li>
+        <a href="http://go.microsoft.com/fwlink/p/?linkid=393788" id="SockLinks_728_56" xmlns="http://www.w3.org/1999/xhtml">Read the blog</a>
+      </li>
+    </ul>
+  </div>
+</div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+        <div id="footerContainer">
+            <div id="fourColumnFooter">
+                <div data-fragmentName="Column1" id="Fragment_Column1" xmlns="http://www.w3.org/1999/xhtml">
+  <div class="ListOfLinkLists">
+    <div class="listItems">
+      
+      <div class="linkList" xmlns="http://www.w3.org/1999/xhtml">
+        <div class="linkListTitle">Centers</div>
+        <ul class="links">
+          <li>
+            <a href="http://dev.windows.com" id="Column1_35354_9" xmlns="http://www.w3.org/1999/xhtml">Windows Dev Center</a>
+          </li>
+          <li>
+            <a href="http://msdn.microsoft.com/windows/desktop" id="Column1_35354_12" xmlns="http://www.w3.org/1999/xhtml">Desktop</a>
+          </li>
+          <li>
+            <a href="http://msdn.microsoft.com/windows/hardware" id="Column1_35354_13" xmlns="http://www.w3.org/1999/xhtml">Hardware</a>
+          </li>
+          <li>
+            <a href="http://msdn.microsoft.com/ie" id="Column1_35354_11" xmlns="http://www.w3.org/1999/xhtml">Internet Explorer</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>              
+                <div data-fragmentName="Column2" id="Fragment_Column2" xmlns="http://www.w3.org/1999/xhtml">
+  <div class="ListOfLinkLists">
+    <div class="listItems">
+      
+      <div class="linkList" xmlns="http://www.w3.org/1999/xhtml">
+        <div class="linkListTitle">Related developer sites</div>
+        <ul class="links">
+          <li>
+            <a href="http://go.microsoft.com/fwlink/p/?linkid=394423" id="Column2_35354_16" xmlns="http://www.w3.org/1999/xhtml">Microsoft Azure</a>
+          </li>
+          <li>
+            <a href="http://go.microsoft.com/fwlink/p/?LinkId=390860" id="Column2_728_71" xmlns="http://www.w3.org/1999/xhtml">Nokia developer</a>
+          </li>
+          <li>
+            <a href="http://go.microsoft.com/fwlink/p/?linkid=282086" id="Column2_35354_14" xmlns="http://www.w3.org/1999/xhtml">OneDrive</a>
+          </li>
+          <li>
+            <a href="http://go.microsoft.com/fwlink/p/?linkid=282089" id="Column2_35354_15" xmlns="http://www.w3.org/1999/xhtml">Visual Studio</a>
+          </li>
+          <li>
+            <a href="http://go.microsoft.com/fwlink/p/?LinkId=400474" id="Column2_728_72" xmlns="http://www.w3.org/1999/xhtml">Windows Embedded</a>
+          </li>
+          <li>
+            <a href="http://go.microsoft.com/fwlink/p/?linkid=282087" id="Column2_35354_18" xmlns="http://www.w3.org/1999/xhtml">Windows Server</a>
+          </li>
+        </ul>
+      </div>
+      
+      <div class="linkList" xmlns="http://www.w3.org/1999/xhtml">
+        <div class="linkListTitle">Other Windows sites</div>
+        <ul class="links">
+          <li>
+            <a href="http://go.microsoft.com/fwlink/p/?linkid=280294" id="Column2_35354_19" xmlns="http://www.w3.org/1999/xhtml">Enterprise</a>
+          </li>
+          <li>
+            <a href="http://go.microsoft.com/fwlink/p/?linkid=280295" id="Column2_35354_20" xmlns="http://www.w3.org/1999/xhtml">Small business</a>
+          </li>
+          <li>
+            <a href="http://go.microsoft.com/fwlink/p/?linkid=280296" id="Column2_35354_21" xmlns="http://www.w3.org/1999/xhtml">Students</a>
+          </li>
+          <li>
+            <a href="http://go.microsoft.com/fwlink/p/?linkid=280297" id="Column2_35354_22" xmlns="http://www.w3.org/1999/xhtml">Windows product site</a>
+          </li>
+          <li>
+            <a href="http://go.microsoft.com/fwlink/p/?LinkId=400499" id="Column2_728_73" xmlns="http://www.w3.org/1999/xhtml">Windows Phone product site</a>
+          </li>
+          <li>
+            <a href="http://go.microsoft.com/fwlink/p/?LinkId=400500" id="Column2_728_74" xmlns="http://www.w3.org/1999/xhtml">Phone OEM partners</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>              
+                <div data-fragmentName="Column3" id="Fragment_Column3" xmlns="http://www.w3.org/1999/xhtml">
+  <div class="ListOfLinkLists">
+    <div class="listItems">
+      
+      <div class="linkList" xmlns="http://www.w3.org/1999/xhtml">
+        <div class="linkListTitle">Tool and product downloads</div>
+        <ul class="links">
+          <li>
+            <a href="http://www.microsoft.com/click/services/Redirect2.ashx?CR_EAC=300135396" id="Column3_35354_24" xmlns="http://www.w3.org/1999/xhtml">Visual Studio Express 2013</a>
+          </li>
+          <li>
+            <a href="http://go.microsoft.com/fwlink/p/?linkid=328183" id="Column3_35354_25" xmlns="http://www.w3.org/1999/xhtml">Windows SDK</a>
+          </li>
+          <li>
+            <a href="http://go.microsoft.com/fwlink/p/?linkid=267554" id="Column3_35354_23" xmlns="http://www.w3.org/1999/xhtml">Windows 8.1</a>
+          </li>
+          <li>
+            <a href="http://go.microsoft.com/fwlink/p/?LinkId=400580" id="Column3_728_75" xmlns="http://www.w3.org/1999/xhtml">Universal Windows app samples</a>
+          </li>
+          <li>
+            <a href="http://go.microsoft.com/fwlink/p/?linkid=302156" id="Column3_728_57" xmlns="http://www.w3.org/1999/xhtml">Code samples</a>
+          </li>
+          <li>
+            <a href="http://go.microsoft.com/fwlink/p/?LinkId=394354" id="Column3_728_76" xmlns="http://www.w3.org/1999/xhtml">Windows Phone 8.1 Emulators</a>
+          </li>
+          <li>
+            <a href="http://go.microsoft.com/fwlink/p/?LinkId=400581" id="Column3_728_77" xmlns="http://www.w3.org/1999/xhtml">Windows Phone Store badges</a>
+          </li>
+          <li>
+            <a href="http://go.microsoft.com/fwlink/p/?LinkId=400582" id="Column3_728_78" xmlns="http://www.w3.org/1999/xhtml">Windows Store logo and device images</a>
+          </li>
+          <li>
+            <a href="http://go.microsoft.com/fwlink/p/?linkid=280676" id="Column3_35354_27" xmlns="http://www.w3.org/1999/xhtml">More downloads</a>
+          </li>
+        </ul>
+      </div>
+      
+      <div class="linkList" xmlns="http://www.w3.org/1999/xhtml">
+        <div class="linkListTitle">Design template downloads</div>
+        <ul class="links">
+          <li>
+            <a href="http://go.microsoft.com/fwlink/p/?LinkId=325041" id="Column3_728_59" xmlns="http://www.w3.org/1999/xhtml">Design templates for PowerPoint</a>
+          </li>
+          <li>
+            <a href="http://go.microsoft.com/fwlink/p/?LinkID=266572" id="Column3_728_58" xmlns="http://www.w3.org/1999/xhtml">Windows Phone apps template for Word<span class="Apple-tab-span" style="white-space:pre;" xmlns=""></span></a>
+          </li>
+          <li>
+            <a href="http://go.microsoft.com/fwlink/p/?LinkId=325040" id="Column3_728_79" xmlns="http://www.w3.org/1999/xhtml">Windows Store apps templates for Photoshop</a>
+          </li>
+          <li>
+            <a href="http://go.microsoft.com/fwlink/p/?LinkId=325039" id="Column3_728_80" xmlns="http://www.w3.org/1999/xhtml">Windows Store apps templates for Illustrator</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>              
+                <div data-fragmentName="Column4" id="Fragment_Column4" xmlns="http://www.w3.org/1999/xhtml">
+  <div class="ListOfLinkLists">
+    <div class="listItems">
+      
+      <div class="linkList" xmlns="http://www.w3.org/1999/xhtml">
+        <div class="linkListTitle">Essentials</div>
+        <ul class="links">
+          <li>
+            <a href="http://go.microsoft.com/fwlink/p/?linkid=285613" id="Column4_728_64" xmlns="http://www.w3.org/1999/xhtml">App certification</a>
+          </li>
+          <li>
+            <a href="http://go.microsoft.com/fwlink/p/?linkid=246847" id="Column4_728_81" xmlns="http://www.w3.org/1999/xhtml">App Developer Agreement</a>
+          </li>
+          <li>
+            <a href="http://go.microsoft.com/fwlink/p/?LinkId=401548" id="Column4_728_82" xmlns="http://www.w3.org/1999/xhtml">App Studio</a>
+          </li>
+          <li>
+            <a href="http://go.microsoft.com/fwlink/p/?linkid=311916" id="Column4_728_83" xmlns="http://www.w3.org/1999/xhtml">Dev center app</a>
+          </li>
+          <li>
+            <a href="http://go.microsoft.com/fwlink/p/?linkid=330426" id="Column4_728_84" xmlns="http://www.w3.org/1999/xhtml">Developer OS Preview</a>
+          </li>
+          <li>
+            <a href="http://go.microsoft.com/fwlink/p/?linkid=281903" id="Column4_728_60" xmlns="http://www.w3.org/1999/xhtml">Feature guide</a>
+          </li>
+          <li>
+            <a href="http://go.microsoft.com/fwlink/p/?linkid=313905" id="Column4_728_65" xmlns="http://www.w3.org/1999/xhtml">Featured partners</a>
+          </li>
+          <li>
+            <a href="http://go.microsoft.com/fwlink/p/?linkid=311913" id="Column4_728_85" xmlns="http://www.w3.org/1999/xhtml">BUILD videos</a>
+          </li>
+          <li>
+            <a href="http://go.microsoft.com/fwlink/p/?linkid=313906" id="Column4_728_66" xmlns="http://www.w3.org/1999/xhtml">One Dev Minute videos</a>
+          </li>
+        </ul>
+      </div>
+      
+      <div class="linkList" xmlns="http://www.w3.org/1999/xhtml">
+        <div class="linkListTitle">Support</div>
+        <ul class="links">
+          <li>
+            <a href="http://go.microsoft.com/fwlink/p/?linkid=280309" id="Column4_728_54" xmlns="http://www.w3.org/1999/xhtml">All support options</a>
+          </li>
+          <li>
+            <a href="http://go.microsoft.com/fwlink/p/?linkid=280308" id="Column4_728_55" xmlns="http://www.w3.org/1999/xhtml">Forums</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>              
+            </div>
+
+            <div id="baseFooterLogos">
+                <span class="microsoftlogo" title="Microsoft"></span>
+                <a href="http://msdn.microsoft.com/en-us" class="msdnlogo" title="MSDN"></a>
+            </div>
+        
+            <div id="baseFooter">
+                <div id="FooterCopyright">© 2014 Microsoft</div>
+                <div data-fragmentName="BaseFooter" id="Fragment_BaseFooter" xmlns="http://www.w3.org/1999/xhtml">
+  
+  <div class="linkList">
+    <ul class="links horizontal">
+      <li>
+        <a href="http://go.microsoft.com/fwlink/?LinkId=248681" id="BaseFooter_35351_3" xmlns="http://www.w3.org/1999/xhtml">Privacy and Cookies</a>
+      </li>
+      <li>
+        <a href="http://go.microsoft.com/fwlink/p/?linkid=248155" id="BaseFooter_35351_1" xmlns="http://www.w3.org/1999/xhtml">Terms of Use</a>
+      </li>
+      <li>
+        <a href="http://go.microsoft.com/fwlink/p/?linkid=248154" id="BaseFooter_35351_2" xmlns="http://www.w3.org/1999/xhtml">Trademarks</a>
+      </li>
+      <li>
+        <a href="http://go.microsoft.com/fwlink/p/?LinkId=400453" id="BaseFooter_730_5" xmlns="http://www.w3.org/1999/xhtml">Site map</a>
+      </li>
+    </ul>
+  </div>
+</div>  
+                <div data-fragmentName="HelloText" id="Fragment_HelloText" xmlns="http://www.w3.org/1999/xhtml">Hello from Seattle.
+</div>  
+                        
+    
+    <span id="selectLocaleFromPopUp">
+        <div class="locale-selector" style="position: relative">
+            <a class="current-locale" href="javascript:void(0)">
+                <span class="text">English</span>
+                <span class="gear"></span>
+            </a>
+            <div class="locale-selection-panel site-flag site-flag-lang" style="top: -245px; display: none;">
+                <div class="content">
+                    <table class="all-locales" cellspacing="0" autogeneratecolumns="false" allowpaging="false" allowsorting="false" style="border-collapse: collapse;">
+                        <tbody>
+                            <tr>
+
+
+                                    <td><a title="Deutsch" href="/de-de/library/preferences/locale/save/?returnurl=%2fen-us%2flibrary%2fwindows%2fapps%2fhh393998(v%3dvs.105).aspx" class="locale-link">Deutsch</a></td>
+                                    <td><a title="English" href="/en-us/library/preferences/locale/save/?returnurl=%2fen-us%2flibrary%2fwindows%2fapps%2fhh393998(v%3dvs.105).aspx" class="locale-link selected">English</a></td>
+                                    <td><a title="Español" href="/es-es/library/preferences/locale/save/?returnurl=%2fen-us%2flibrary%2fwindows%2fapps%2fhh393998(v%3dvs.105).aspx" class="locale-link">Español</a></td>
+                                    <td><a title="Français" href="/fr-fr/library/preferences/locale/save/?returnurl=%2fen-us%2flibrary%2fwindows%2fapps%2fhh393998(v%3dvs.105).aspx" class="locale-link">Français</a></td>
+                                        </tr><tr>
+                                    <td><a title="Italiano" href="/it-it/library/preferences/locale/save/?returnurl=%2fen-us%2flibrary%2fwindows%2fapps%2fhh393998(v%3dvs.105).aspx" class="locale-link">Italiano</a></td>
+                                    <td><a title="日本語" href="/ja-jp/library/preferences/locale/save/?returnurl=%2fen-us%2flibrary%2fwindows%2fapps%2fhh393998(v%3dvs.105).aspx" class="locale-link">日本語</a></td>
+                                    <td><a title="한국어" href="/ko-kr/library/preferences/locale/save/?returnurl=%2fen-us%2flibrary%2fwindows%2fapps%2fhh393998(v%3dvs.105).aspx" class="locale-link">한국어</a></td>
+                                    <td><a title="Português" href="/pt-br/library/preferences/locale/save/?returnurl=%2fen-us%2flibrary%2fwindows%2fapps%2fhh393998(v%3dvs.105).aspx" class="locale-link">Português</a></td>
+                                        </tr><tr>
+                                    <td><a title="Pусский" href="/ru-ru/library/preferences/locale/save/?returnurl=%2fen-us%2flibrary%2fwindows%2fapps%2fhh393998(v%3dvs.105).aspx" class="locale-link">Pусский</a></td>
+                                    <td><a title="简体中文" href="/zh-cn/library/preferences/locale/save/?returnurl=%2fen-us%2flibrary%2fwindows%2fapps%2fhh393998(v%3dvs.105).aspx" class="locale-link">简体中文</a></td>
+                                    <td><a title="繁體中文" href="/zh-tw/library/preferences/locale/save/?returnurl=%2fen-us%2flibrary%2fwindows%2fapps%2fhh393998(v%3dvs.105).aspx" class="locale-link">繁體中文</a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div class="arrow">
+                         </div>
+                </div>
+            </div>
+        </div>
+    </span>
+
+  
+                
+                <div class="clear"></div>
+            </div>
+        </div>
+    </div> 
+
+
+            <div class="footerPrintView">
+                <div class="footerCopyrightPrintView">© 2014 Microsoft</div>
+            </div>
+
+            
+            
+    
+
+
+        
+            <input id="MtpsDevice" type="hidden" value="Default" />
+
+
+<![CDATA[ Third party scripts and code linked to or referenced from this website are licensed to you by the parties that own such code, not by Microsoft.  See ASP.NET Ajax CDN Terms of Use – http://www.asp.net/ajaxlibrary/CDN.ashx. ]]>
+        
+            
+            
+            
+            
+            
+        
+
+
+
+
+
+<noscript><div><img alt="DCSIMG" id="Img1" width="1" height="1" src="http://m.webtrends.com/dcsmgru7m99k7mqmgrhudo0k8_8c6m/njs.gif?dcsuri=/nojavascript&amp;WT.js=No" /></div></noscript>
+
+
+
+
+
+
+
+
+
+<noscript>
+  <a href="http://www.omniture.com" title="Web Analytics">
+    <img src="//msstonojsmsdn.112.2o7.net/b/ss/msstonojsmsdn/1/H.20.2--NS/0" height="1" width="1" border="0" alt="" />
+  </a>
+</noscript>
+
+
+
+
+<div id="globalRequestVerification">
+    <input name="__RequestVerificationToken" type="hidden" value="G1GQRcaG7UfrJ28RlEoiz6IBOAAkMXfLz0dg0_Ue_kPp_kIfoMQGeh5_Exg-ULUepesTdJr2JKshOZvqg1HfkY7TGCI1" />
+</div>
+
+
+        </div>
+        
+        
+        
+    <script type="text/javascript" class="mtps-injected">
+/*<![CDATA[*/
+(function(window,document){"use strict";function preload(scripts){for(var result=[],script,e,i=0;i<scripts.length;i++)script=scripts[i],script.hasOwnProperty("url")&&(e=document.createElement("script"),e.src=script.url,script.throwaway=e),result.push(script);return result}function inject(scripts,index){var script,elem;if(index>=scripts.length){delete mtps.injectScripts;return}script=scripts[index];elem=document.createElement("script");elem.className="mtps-injected";elem.async=!1;var isLoaded=!1,timeoutId=0,injectNextFnName="",injectNext=elem.onerror=function(){isLoaded||(isLoaded=!0,inject(scripts,index+1),window.clearTimeout(timeoutId),elem.onload=elem.onerror=elem.onreadystatechange=null,injectNextFnName&&delete mtps[injectNextFnName],elem.removeEventListener&&elem.removeEventListener("load",injectNext,!1))};elem.addEventListener?elem.addEventListener("load",injectNext,!1):elem.readyState==="uninitialized"?elem.onreadystatechange=function(){(this.readyState==="loaded"||this.readyState==="complete")&&injectNext()}:elem.onload=injectNext;script.hasOwnProperty("url")?(timeoutId=window.setTimeout(injectNext,12e4),elem.src=script.url):(injectNextFnName="_injectNextScript_"+index,mtps[injectNextFnName]=injectNext,timeoutId=window.setTimeout(injectNext,2e3),elem.text="try {\n"+script.txt+"\n} finally { MTPS."+injectNextFnName+" && MTPS."+injectNextFnName+"(); }");parent.appendChild(elem)}var mtps=window.MTPS||(window.MTPS={}),parent=document.getElementsByTagName("head")[0];mtps.injectScripts=function(scripts){inject(preload(scripts),0)}})(window,document);
+MTPS.injectScripts([
+	{ txt: "/**/\r\n(window.MTPS || (window.MTPS = {})).cdnDomains || (window.MTPS.cdnDomains = { \r\n\t\"image\": \"http://i.msdn.microsoft.com\", \r\n\t\"js\": \"http://i2.msdn.microsoft.com\", \r\n\t\"css\": \"http://i3.msdn.microsoft.com\", \r\n\t\"xap\": \"http://157.56.75.51\"\r\n});\r\n/**/" },
+	{ url: "http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.2.min.js" },
+	{ txt: "//\n  var literalNormalizedUrl = \u0027/en-us/library/windows/apps/hh393998(l=en-us,v=vs.105).aspx\u0027;\n  var wt_nvr_ru = \u0027WT_NVR_RU\u0027;\n  var wt_fpcdom = \u0027.microsoft.com\u0027;\n  var wt_domlist = \u0027msdn.microsoft.com\u0027;\n  var wt_pathlist = \u0027\u0027;\n  var wt_paramlist = \u0027DCSext.mtps_devcenter\u0027;\n  var wt_siteid = \u0027MSDN\u0027;\n  var gDomain = \u0027m.webtrends.com\u0027;\n  var gDcsId = \u0027dcsmgru7m99k7mqmgrhudo0k8_8c6m\u0027;\n  var gFpc = \u0027WT_FPC\u0027;\n\n\n\n  if (document.cookie.indexOf(gFpc + \"=\") == -1) {\n    var wtidJs = document.createElement(\"script\");\n    wtidJs.src = \"//\" + gDomain + \"/\" + gDcsId + \"/wtid.js\";\n    document.getElementsByTagName(\"head\")[0].appendChild(wtidJs);\n  }\n\n\n\n  var detectedLocale = \u0027en-us\u0027;\n  var wtsp = \u0027_msdn_\u0027;\n  var gTrackEvents = \u00270\u0027;\n/**/" },
+	{ txt: "/**/\n  var omni_guid = \"aca823d8-6f6a-43aa-ac2f-adac68456080\";\n/**/" },
+	{ txt: "//\n\n            window.appInsightsId = \u002760854590-027a-4ae4-98be-2741a40f355f\u0027;\n            //" },
+	{ url: "http://i2.msdn.microsoft.com/Combined.js?resources=0:Utilities,1:Rating,0:Topic,2:webtrendsscript,3:omni_rsid_MSDN,0:AppInsightsPerf,4:Toc,1:SearchBox;/Areas/Epx/Content/Scripts:0,/Areas/Epx/Themes/Base/Content:1,/Areas/Global/Content/Webtrends/resources:2,/Areas/Global/Content/Omniture/resources/MSDN:3,/Areas/Library/Content:4\u0026amp;hashKey=6BAC392CEA19AA9BFB1954BD13D65DAE" },
+	{ url: "http://i1.services.social.microsoft.com/search/Widgets/SearchBox.jss?boxid=HeaderSearchTextBox\u0026btnid=HeaderSearchButton\u0026brand=Msdn\u0026loc=en-us\u0026Refinement=180\u0026focusOnInit=false\u0026iroot=windows%2fapps\u0026emptyWatermark=true\u0026searchButtonTooltip=Search Windows Apps Dev Center" },
+	{ url: "http://i2.msdn.microsoft.com/Combined.js?resources=0:header.2,1:TocDropDown,2:NavigationResize;/Areas/Epx/Themes/WindowsApps/Content:0,/Areas/Epx/Themes/Windows/Content:1,/Areas/Library/Content:2\u0026amp;hashKey=829085A667176D117126E3193CF4DDB5" },
+	{ txt: "MTPS = window.MTPS || {}; MTPS.LocalizedStrings = window.MTPS.LocalizedStrings || {}; MTPS.LocalizedStrings.ExpandButtonTooltip = \u0027Expand\u0027; MTPS.LocalizedStrings.CollapseButtonTooltip = \u0027Collapse\u0027; MTPS.LocalizedStrings.EnhancedExpandTooltip = \u0027Click to expand. Double-click to expand all.\u0027; MTPS.LocalizedStrings.EnhancedCollapseTooltip = \u0027Click to collapse. Double-click to collapse all.\u0027; MTPS.LocalizedStrings.ExpandAllButtonTooltip = \u0027Expand All\u0027; MTPS.LocalizedStrings.CollapseAllButtonTooltip = \u0027Collapse All\u0027;" },
+	{ url: "http://i2.msdn.microsoft.com/Combined.js?resources=0:LibraryMemberFilter,1:Toc_Fixed,2:SelectLocaleFromPopUp,1:CodeSnippet,1:TopicNotInScope,1:CollapsibleArea,1:VersionSelector,1:SurveyBroker;/Areas/Library/Content:0,/Areas/Epx/Content/Scripts:1,/Areas/Epx/Themes/Base/Content:2\u0026amp;hashKey=98442D20E557713EE2ACE87E6E21BCBC" },
+	{ txt: "$(document).ready(function() {\n        try {\n            var token = $(\"#globalRequestVerification input[name=\u0027__RequestVerificationToken\u0027]\").clone();\n            $(\"#siteFeedbackForm\").append(token);\n        } catch(err) {\n            \n        }\n    });" }
+]);
+
+/*]]>*/
+</script></body>
+</html>

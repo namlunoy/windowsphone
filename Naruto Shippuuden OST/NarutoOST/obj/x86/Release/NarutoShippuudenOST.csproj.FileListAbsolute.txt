@@ -1,0 +1,23 @@
+E:\work\Projects x\Naruto Shippuuden OST\NarutoOST\Bin\x86\Release\Naruto Shippuuden OST.dll
+E:\work\Projects x\Naruto Shippuuden OST\NarutoOST\Bin\x86\Release\Naruto Shippuuden OST.pdb
+E:\work\Projects x\Naruto Shippuuden OST\NarutoOST\Bin\x86\Release\AppManifest.xaml
+E:\work\Projects x\Naruto Shippuuden OST\NarutoOST\Bin\x86\Release\Properties\WMAppManifest.xml
+E:\work\Projects x\Naruto Shippuuden OST\NarutoOST\Bin\x86\Release\NarutoShippuudenOST.xap
+E:\work\Projects x\Naruto Shippuuden OST\NarutoOST\Bin\x86\Release\Coding4Fun.Toolkit.Controls.dll
+E:\work\Projects x\Naruto Shippuuden OST\NarutoOST\Bin\x86\Release\GoogleAds.dll
+E:\work\Projects x\Naruto Shippuuden OST\NarutoOST\Bin\x86\Release\Microsoft.Phone.Controls.dll
+E:\work\Projects x\Naruto Shippuuden OST\NarutoOST\Bin\x86\Release\MyAudioPlaybackAgent.dll
+E:\work\Projects x\Naruto Shippuuden OST\NarutoOST\Bin\x86\Release\MyAudioPlaybackAgent.pdb
+E:\work\Projects x\Naruto Shippuuden OST\NarutoOST\Bin\x86\Release\GoogleAds.xml
+E:\work\Projects x\Naruto Shippuuden OST\NarutoOST\obj\x86\Release\NarutoShippuudenOST.csprojResolveAssemblyReference.cache
+E:\work\Projects x\Naruto Shippuuden OST\NarutoOST\obj\x86\Release\App.g.cs
+E:\work\Projects x\Naruto Shippuuden OST\NarutoOST\obj\x86\Release\about.g.cs
+E:\work\Projects x\Naruto Shippuuden OST\NarutoOST\obj\x86\Release\Controls\SongItem.g.cs
+E:\work\Projects x\Naruto Shippuuden OST\NarutoOST\obj\x86\Release\MainPage.g.cs
+E:\work\Projects x\Naruto Shippuuden OST\NarutoOST\obj\x86\Release\PlayingPage.g.cs
+E:\work\Projects x\Naruto Shippuuden OST\NarutoOST\obj\x86\Release\Naruto Shippuuden OST.g.resources
+E:\work\Projects x\Naruto Shippuuden OST\NarutoOST\obj\x86\Release\NarutoOST.Resources.AppResources.resources
+E:\work\Projects x\Naruto Shippuuden OST\NarutoOST\obj\x86\Release\NarutoShippuudenOST.csproj.GenerateResource.Cache
+E:\work\Projects x\Naruto Shippuuden OST\NarutoOST\obj\x86\Release\Naruto Shippuuden OST.dll
+E:\work\Projects x\Naruto Shippuuden OST\NarutoOST\obj\x86\Release\Naruto Shippuuden OST.pdb
+E:\work\Projects x\Naruto Shippuuden OST\NarutoOST\obj\x86\Release\XapCacheFile.xml

@@ -1,0 +1,23 @@
+E:\work\Projects x\Naruto Shippuuden OST\NarutoOST\Bin\Debug\AppManifest.xaml
+E:\work\Projects x\Naruto Shippuuden OST\NarutoOST\Bin\Debug\Properties\WMAppManifest.xml
+E:\work\Projects x\Naruto Shippuuden OST\NarutoOST\Bin\Debug\Coding4Fun.Toolkit.Controls.dll
+E:\work\Projects x\Naruto Shippuuden OST\NarutoOST\Bin\Debug\GoogleAds.dll
+E:\work\Projects x\Naruto Shippuuden OST\NarutoOST\Bin\Debug\Microsoft.Phone.Controls.dll
+E:\work\Projects x\Naruto Shippuuden OST\NarutoOST\Bin\Debug\MyAudioPlaybackAgent.dll
+E:\work\Projects x\Naruto Shippuuden OST\NarutoOST\Bin\Debug\MyAudioPlaybackAgent.pdb
+E:\work\Projects x\Naruto Shippuuden OST\NarutoOST\Bin\Debug\GoogleAds.xml
+E:\work\Projects x\Naruto Shippuuden OST\NarutoOST\obj\Debug\NarutoShippuudenOST.csprojResolveAssemblyReference.cache
+E:\work\Projects x\Naruto Shippuuden OST\NarutoOST\obj\Debug\App.g.cs
+E:\work\Projects x\Naruto Shippuuden OST\NarutoOST\obj\Debug\about.g.cs
+E:\work\Projects x\Naruto Shippuuden OST\NarutoOST\obj\Debug\Controls\SongItem.g.cs
+E:\work\Projects x\Naruto Shippuuden OST\NarutoOST\obj\Debug\MainPage.g.cs
+E:\work\Projects x\Naruto Shippuuden OST\NarutoOST\obj\Debug\PlayingPage.g.cs
+E:\work\Projects x\Naruto Shippuuden OST\NarutoOST\obj\Debug\NarutoOST.Resources.AppResources.resources
+E:\work\Projects x\Naruto Shippuuden OST\NarutoOST\obj\Debug\NarutoShippuudenOST.csproj.GenerateResource.Cache
+E:\work\Projects x\Naruto Shippuuden OST\NarutoOST\obj\Debug\XapCacheFile.xml
+E:\work\Projects x\Naruto Shippuuden OST\NarutoOST\Bin\Debug\Naruto Shippuuden OST.dll
+E:\work\Projects x\Naruto Shippuuden OST\NarutoOST\Bin\Debug\Naruto Shippuuden OST.pdb
+E:\work\Projects x\Naruto Shippuuden OST\NarutoOST\Bin\Debug\NarutoShippuudenOST.xap
+E:\work\Projects x\Naruto Shippuuden OST\NarutoOST\obj\Debug\Naruto Shippuuden OST.g.resources
+E:\work\Projects x\Naruto Shippuuden OST\NarutoOST\obj\Debug\Naruto Shippuuden OST.dll
+E:\work\Projects x\Naruto Shippuuden OST\NarutoOST\obj\Debug\Naruto Shippuuden OST.pdb

@@ -1,0 +1,29 @@
+D:\work\Projects x\Naruto Wikia\Naruto Wikia\Naruto Wikia\Bin\Debug\Assets\AppBar\back.png
+D:\work\Projects x\Naruto Wikia\Naruto Wikia\Naruto Wikia\Bin\Debug\Assets\AppBar\feature.search.png
+D:\work\Projects x\Naruto Wikia\Naruto Wikia\Naruto Wikia\Bin\Debug\Assets\AppBar\feature.settings.png
+D:\work\Projects x\Naruto Wikia\Naruto Wikia\Naruto Wikia\Bin\Debug\Assets\AppBar\next.png
+D:\work\Projects x\Naruto Wikia\Naruto Wikia\Naruto Wikia\Bin\Debug\Assets\ApplicationIcon.png
+D:\work\Projects x\Naruto Wikia\Naruto Wikia\Naruto Wikia\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
+D:\work\Projects x\Naruto Wikia\Naruto Wikia\Naruto Wikia\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png
+D:\work\Projects x\Naruto Wikia\Naruto Wikia\Naruto Wikia\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png
+D:\work\Projects x\Naruto Wikia\Naruto Wikia\Naruto Wikia\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
+D:\work\Projects x\Naruto Wikia\Naruto Wikia\Naruto Wikia\Bin\Debug\Assets\Tiles\IconicTileSmall.png
+D:\work\Projects x\Naruto Wikia\Naruto Wikia\Naruto Wikia\Bin\Debug\Naruto Wikia.dll
+D:\work\Projects x\Naruto Wikia\Naruto Wikia\Naruto Wikia\Bin\Debug\Naruto Wikia.pdb
+D:\work\Projects x\Naruto Wikia\Naruto Wikia\Naruto Wikia\Bin\Debug\AppManifest.xaml
+D:\work\Projects x\Naruto Wikia\Naruto Wikia\Naruto Wikia\Bin\Debug\Properties\WMAppManifest.xml
+D:\work\Projects x\Naruto Wikia\Naruto Wikia\Naruto Wikia\Bin\Debug\Naruto_Wikia_Debug_AnyCPU.xap
+D:\work\Projects x\Naruto Wikia\Naruto Wikia\Naruto Wikia\Bin\Debug\GoogleAds.dll
+D:\work\Projects x\Naruto Wikia\Naruto Wikia\Naruto Wikia\Bin\Debug\Microsoft.Phone.Controls.dll
+D:\work\Projects x\Naruto Wikia\Naruto Wikia\Naruto Wikia\Bin\Debug\GoogleAds.xml
+D:\work\Projects x\Naruto Wikia\Naruto Wikia\Naruto Wikia\obj\Debug\App.g.cs
+D:\work\Projects x\Naruto Wikia\Naruto Wikia\Naruto Wikia\obj\Debug\MainPage2.g.cs
+D:\work\Projects x\Naruto Wikia\Naruto Wikia\Naruto Wikia\obj\Debug\MainPage.g.cs
+D:\work\Projects x\Naruto Wikia\Naruto Wikia\Naruto Wikia\obj\Debug\Naruto Wikia.g.resources
+D:\work\Projects x\Naruto Wikia\Naruto Wikia\Naruto Wikia\obj\Debug\Naruto_Wikia.Resources.AppResources.resources
+D:\work\Projects x\Naruto Wikia\Naruto Wikia\Naruto Wikia\obj\Debug\Naruto Wikia.csproj.GenerateResource.Cache
+D:\work\Projects x\Naruto Wikia\Naruto Wikia\Naruto Wikia\obj\Debug\Naruto Wikia.dll
+D:\work\Projects x\Naruto Wikia\Naruto Wikia\Naruto Wikia\obj\Debug\Naruto Wikia.pdb
+D:\work\Projects x\Naruto Wikia\Naruto Wikia\Naruto Wikia\obj\Debug\XapCacheFile.xml
+D:\work\Projects x\Naruto Wikia\Naruto Wikia\Naruto Wikia\obj\Debug\about.g.cs
+D:\work\Projects x\Naruto Wikia\Naruto Wikia\Naruto Wikia\obj\Debug\Naruto Wikia.csprojResolveAssemblyReference.cache

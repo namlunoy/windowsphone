@@ -1,0 +1,45 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="Naruto_Wikia.about"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="True">
+
+    <Grid x:Name="LayoutRoot" Background="#FF07263F">
+
+        <StackPanel HorizontalAlignment="Left" VerticalAlignment="Top" Margin="30,107,0,0">
+            <StackPanel Orientation="Horizontal" >
+                <TextBlock HorizontalAlignment="Left" VerticalAlignment="Top" Text="app name: " />
+                <TextBlock  Text="Naruto Wikia" Opacity="0.9" Padding="10,0,0,0"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" >
+                <TextBlock HorizontalAlignment="Left" VerticalAlignment="Top" Text="description: " />
+                <TextBlock TextWrapping="Wrap" Text="Collect all information about Naruto!" Width="279" Margin="10,0,0,0" Opacity="0.9"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" >
+                <TextBlock HorizontalAlignment="Left" VerticalAlignment="Top" Text="publisher: " />
+                <TextBlock  Text="conghoang" Margin="10,0,0,0" Opacity="0.9"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" >
+                <TextBlock HorizontalAlignment="Left" VerticalAlignment="Top" Text="email: " />
+                <HyperlinkButton Content="conghoang123@outlook.com" Click="clickEmail" BorderThickness="10,0,0,0" />
+            </StackPanel>
+
+        </StackPanel>
+
+
+        <Button Content="more apps" HorizontalAlignment="Left" Margin="53,454,0,0" VerticalAlignment="Top" Click="Button_Click_1" Width="364"/>
+        <TextBlock HorizontalAlignment="Left" Margin="30,10,0,0" TextWrapping="Wrap" Text="about" VerticalAlignment="Top" FontSize="50" FontFamily="Segoe UI"/>
+        <Button Content="review this app" HorizontalAlignment="Left" Margin="53,358,0,0" VerticalAlignment="Top" Click="clickRate" Width="364"/>
+
+    </Grid>
+
+</phone:PhoneApplicationPage>

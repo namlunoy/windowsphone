@@ -1,0 +1,79 @@
+D:\work\Projects x\private notes\private notes\private notes\Bin\Debug\Assets\ApplicationIcon.png
+D:\work\Projects x\private notes\private notes\private notes\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
+D:\work\Projects x\private notes\private notes\private notes\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png
+D:\work\Projects x\private notes\private notes\private notes\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png
+D:\work\Projects x\private notes\private notes\private notes\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
+D:\work\Projects x\private notes\private notes\private notes\Bin\Debug\Assets\Tiles\IconicTileSmall.png
+D:\work\Projects x\private notes\private notes\private notes\Bin\Debug\private notes.dll
+D:\work\Projects x\private notes\private notes\private notes\Bin\Debug\private notes.pdb
+D:\work\Projects x\private notes\private notes\private notes\Bin\Debug\AppManifest.xaml
+D:\work\Projects x\private notes\private notes\private notes\Bin\Debug\Properties\WMAppManifest.xml
+D:\work\Projects x\private notes\private notes\private notes\Bin\Debug\private_notes_Debug_AnyCPU.xap
+D:\work\Projects x\private notes\private notes\private notes\obj\Debug\App.g.cs
+D:\work\Projects x\private notes\private notes\private notes\obj\Debug\MainPage.g.cs
+D:\work\Projects x\private notes\private notes\private notes\obj\Debug\private notes.g.resources
+D:\work\Projects x\private notes\private notes\private notes\obj\Debug\private_notes.Resources.AppResources.resources
+D:\work\Projects x\private notes\private notes\private notes\obj\Debug\private notes.csproj.GenerateResource.Cache
+D:\work\Projects x\private notes\private notes\private notes\obj\Debug\private notes.dll
+D:\work\Projects x\private notes\private notes\private notes\obj\Debug\private notes.pdb
+D:\work\Projects x\private notes\private notes\private notes\obj\Debug\XapCacheFile.xml
+D:\work\Projects x\private notes\private notes\private notes\obj\Debug\about.g.cs
+D:\work\Projects x\private notes\private notes\private notes\obj\Debug\MyNotes.g.cs
+D:\work\Projects x\private notes\private notes\private notes\obj\Debug\NewNote.g.cs
+D:\work\Projects x\private notes\private notes\private notes\obj\Debug\Settings.g.cs
+D:\work\Projects x\private notes\private notes\private notes\Bin\Debug\Coding4Fun.Toolkit.Controls.dll
+D:\work\Projects x\private notes\private notes\private notes\obj\Debug\private notes.csprojResolveAssemblyReference.cache
+D:\work\Projects x\private notes\private notes\private notes\Bin\Debug\GoogleAds.dll
+D:\work\Projects x\private notes\private notes\private notes\Bin\Debug\GoogleAds.xml
+D:\work\Projects x\private notes\private notes\private notes\Bin\Debug\Assets\AppBar\save.png
+D:\work\Projects x\private notes\private notes\private notes\Bin\Debug\Microsoft.Phone.Controls.Toolkit.dll
+D:\work\Projects x\private notes\private notes\private notes\Bin\Debug\ar-SA\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\work\Projects x\private notes\private notes\private notes\Bin\Debug\az-Latn-AZ\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\work\Projects x\private notes\private notes\private notes\Bin\Debug\be-BY\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\work\Projects x\private notes\private notes\private notes\Bin\Debug\bg-BG\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\work\Projects x\private notes\private notes\private notes\Bin\Debug\ca-ES\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\work\Projects x\private notes\private notes\private notes\Bin\Debug\cs-CZ\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\work\Projects x\private notes\private notes\private notes\Bin\Debug\da-DK\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\work\Projects x\private notes\private notes\private notes\Bin\Debug\de-DE\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\work\Projects x\private notes\private notes\private notes\Bin\Debug\el-GR\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\work\Projects x\private notes\private notes\private notes\Bin\Debug\en-GB\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\work\Projects x\private notes\private notes\private notes\Bin\Debug\es-ES\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\work\Projects x\private notes\private notes\private notes\Bin\Debug\es-MX\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\work\Projects x\private notes\private notes\private notes\Bin\Debug\et-EE\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\work\Projects x\private notes\private notes\private notes\Bin\Debug\fa-IR\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\work\Projects x\private notes\private notes\private notes\Bin\Debug\fi-FI\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\work\Projects x\private notes\private notes\private notes\Bin\Debug\fil-PH\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\work\Projects x\private notes\private notes\private notes\Bin\Debug\fr-CA\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\work\Projects x\private notes\private notes\private notes\Bin\Debug\fr-FR\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\work\Projects x\private notes\private notes\private notes\Bin\Debug\he-IL\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\work\Projects x\private notes\private notes\private notes\Bin\Debug\hi-IN\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\work\Projects x\private notes\private notes\private notes\Bin\Debug\hr-HR\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\work\Projects x\private notes\private notes\private notes\Bin\Debug\hu-HU\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\work\Projects x\private notes\private notes\private notes\Bin\Debug\id-ID\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\work\Projects x\private notes\private notes\private notes\Bin\Debug\it-IT\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\work\Projects x\private notes\private notes\private notes\Bin\Debug\ja-JP\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\work\Projects x\private notes\private notes\private notes\Bin\Debug\kk-KZ\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\work\Projects x\private notes\private notes\private notes\Bin\Debug\ko-KR\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\work\Projects x\private notes\private notes\private notes\Bin\Debug\lt-LT\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\work\Projects x\private notes\private notes\private notes\Bin\Debug\lv-LV\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\work\Projects x\private notes\private notes\private notes\Bin\Debug\mk-MK\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\work\Projects x\private notes\private notes\private notes\Bin\Debug\ms-MY\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\work\Projects x\private notes\private notes\private notes\Bin\Debug\nb-NO\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\work\Projects x\private notes\private notes\private notes\Bin\Debug\nl-NL\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\work\Projects x\private notes\private notes\private notes\Bin\Debug\pl-PL\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\work\Projects x\private notes\private notes\private notes\Bin\Debug\pt-BR\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\work\Projects x\private notes\private notes\private notes\Bin\Debug\pt-PT\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\work\Projects x\private notes\private notes\private notes\Bin\Debug\ro-RO\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\work\Projects x\private notes\private notes\private notes\Bin\Debug\ru-RU\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\work\Projects x\private notes\private notes\private notes\Bin\Debug\sk-SK\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\work\Projects x\private notes\private notes\private notes\Bin\Debug\sl-SI\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\work\Projects x\private notes\private notes\private notes\Bin\Debug\sq-AL\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\work\Projects x\private notes\private notes\private notes\Bin\Debug\sr-Latn-CS\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\work\Projects x\private notes\private notes\private notes\Bin\Debug\sv-SE\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\work\Projects x\private notes\private notes\private notes\Bin\Debug\th-TH\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\work\Projects x\private notes\private notes\private notes\Bin\Debug\tr-TR\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\work\Projects x\private notes\private notes\private notes\Bin\Debug\uk-UA\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\work\Projects x\private notes\private notes\private notes\Bin\Debug\uz-Latn-UZ\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\work\Projects x\private notes\private notes\private notes\Bin\Debug\vi-VN\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\work\Projects x\private notes\private notes\private notes\Bin\Debug\zh-CN\Microsoft.Phone.Controls.Toolkit.resources.dll
+D:\work\Projects x\private notes\private notes\private notes\Bin\Debug\zh-TW\Microsoft.Phone.Controls.Toolkit.resources.dll

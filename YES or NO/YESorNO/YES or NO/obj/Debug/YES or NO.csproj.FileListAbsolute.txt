@@ -1,0 +1,27 @@
+D:\work\Projects x\YES or NO\YESorNO\YES or NO\Bin\Debug\Assets\ApplicationIcon.png
+D:\work\Projects x\YES or NO\YESorNO\YES or NO\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
+D:\work\Projects x\YES or NO\YESorNO\YES or NO\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png
+D:\work\Projects x\YES or NO\YESorNO\YES or NO\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png
+D:\work\Projects x\YES or NO\YESorNO\YES or NO\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
+D:\work\Projects x\YES or NO\YESorNO\YES or NO\Bin\Debug\Assets\Tiles\IconicTileSmall.png
+D:\work\Projects x\YES or NO\YESorNO\YES or NO\Bin\Debug\YES or NO.dll
+D:\work\Projects x\YES or NO\YESorNO\YES or NO\Bin\Debug\YES or NO.pdb
+D:\work\Projects x\YES or NO\YESorNO\YES or NO\Bin\Debug\AppManifest.xaml
+D:\work\Projects x\YES or NO\YESorNO\YES or NO\Bin\Debug\Properties\WMAppManifest.xml
+D:\work\Projects x\YES or NO\YESorNO\YES or NO\Bin\Debug\YES_or_NO_Debug_AnyCPU.xap
+D:\work\Projects x\YES or NO\YESorNO\YES or NO\obj\Debug\App.g.cs
+D:\work\Projects x\YES or NO\YESorNO\YES or NO\obj\Debug\MainPage.g.cs
+D:\work\Projects x\YES or NO\YESorNO\YES or NO\obj\Debug\YES or NO.g.resources
+D:\work\Projects x\YES or NO\YESorNO\YES or NO\obj\Debug\YES_or_NO.Resources.AppResources.resources
+D:\work\Projects x\YES or NO\YESorNO\YES or NO\obj\Debug\YES or NO.csproj.GenerateResource.Cache
+D:\work\Projects x\YES or NO\YESorNO\YES or NO\obj\Debug\YES or NO.dll
+D:\work\Projects x\YES or NO\YESorNO\YES or NO\obj\Debug\YES or NO.pdb
+D:\work\Projects x\YES or NO\YESorNO\YES or NO\obj\Debug\XapCacheFile.xml
+D:\work\Projects x\YES or NO\YESorNO\YES or NO\Bin\Debug\GoogleAds.dll
+D:\work\Projects x\YES or NO\YESorNO\YES or NO\Bin\Debug\GoogleAds.xml
+D:\work\Projects x\YES or NO\YESorNO\YES or NO\obj\Debug\YES or NO.csprojResolveAssemblyReference.cache
+D:\work\Projects x\YES or NO\YESorNO\YES or NO\Bin\Debug\Assets\AppBar\basecircle.png
+D:\work\Projects x\YES or NO\YESorNO\YES or NO\Bin\Debug\Assets\AppBar\favs.png
+D:\work\Projects x\YES or NO\YESorNO\YES or NO\Bin\Debug\Assets\AppBar\refresh.png
+D:\work\Projects x\YES or NO\YESorNO\YES or NO\Bin\Debug\Assets\AppBar\share.png
+D:\work\Projects x\YES or NO\YESorNO\YES or NO\Bin\Debug\Assets\AppBar\check.png
